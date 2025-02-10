@@ -23,7 +23,7 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <div>
-        <h1 className='text-3xl font-bold text-red-500'>테스트</h1>
+        <h1 className='text-3xl font-bold text-red-500'>테스트입니다.</h1>
         <Test />
       </div>
       <ReactQueryDevtools initialIsOpen={false} />
