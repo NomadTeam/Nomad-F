@@ -11,7 +11,6 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\""
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.5",
     "@tanstack/react-query": "^5.66.0",
     "@tanstack/react-query-devtools": "^5.66.0",
     "axios": "^1.7.9",
@@ -20,11 +19,11 @@
     "react-error-boundary": "^5.0.0",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.5",
-    "tailwindcss": "^4.0.5",
     "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@tailwindcss/vite": "^4.0.8",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@types/react-router-dom": "^5.3.3",
@@ -39,6 +38,8 @@
     "globals": "^15.14.0",
     "prettier": "^3.5.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.8",
+    "tailwindcss-cli": "^0.1.2",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
