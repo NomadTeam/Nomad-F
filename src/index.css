@@ -1,12 +1,9 @@
 @import 'tailwindcss';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base{
+  body {
+    @apply m-0 p-0 box-border bg-[#A9A9A9];
+  }
 }
 
-body{
-  background-color: #f8f8f8;
-}
 
