@@ -7,10 +7,10 @@ interface SearchBarProps {
 const SearchBar = ({ isScrolled }: SearchBarProps) => {
   return (
     <div
-      className={`relative flex items-center ${
+      className={`relative flex h-[35px] items-center ${
         isScrolled
           ? 'mx-10 w-[140px] border-b-2 border-[#4682B4] pb-1'
-          : 'mx-10 w-[355px] max-w-md rounded-full border border-[#4682B4] bg-white px-4 py-0.5 pr-10'
+          : 'w-[355px] max-w-md rounded-full border border-[#4682B4] bg-white px-4 py-0.5 pr-10'
       }`}
     >
       <input
